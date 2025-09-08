@@ -1,3 +1,7 @@
+/**
+* Simple top nav.
+* Uses NavLink to get an 'active' class for the current route.
+*/
 import { NavLink } from 'react-router-dom'
 import styles from './Navbar.module.css'
 
@@ -15,6 +19,7 @@ export default function Navbar() {
         <header className={styles.header}>
             <div className="container">
                 <div className={styles.bar}>
+                    {/* Replace with <Logo /> when you have an SVG */}
                     <a href="/" className={styles.logo}>Biscuit Labs</a>
                     <nav className={styles.nav}>
                         {links.map(l => (

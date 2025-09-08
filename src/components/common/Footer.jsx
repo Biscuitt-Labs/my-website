@@ -1,3 +1,6 @@
+/**
+* Quiet footer with a dynamic year.
+*/
 import styles from './Footer.module.css'
 
 

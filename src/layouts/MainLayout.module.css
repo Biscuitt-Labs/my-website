@@ -1,5 +1,7 @@
+/* Grid shell: header (auto), content (1fr), footer (auto). */
 .shell {
     min-height: 100dvh;
+    /* account for mobile dynamic UI */
     display: grid;
     grid-template-rows: auto 1fr auto;
     background: var(--bl-teal-800);

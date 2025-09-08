@@ -1,3 +1,4 @@
+/* Sticky top bar with a soft shadow. */
 .header {
     position: sticky;
     top: 0;
@@ -35,5 +36,6 @@
 }
 
 .active {
+    /* highlight current route */
     background: color-mix(in oklab, var(--bl-cream) 20%, transparent);
 }
