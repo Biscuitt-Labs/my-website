@@ -1,0 +1,5 @@
+.footer {
+    padding: var(--space-5) 0;
+    color: var(--bl-cream);
+    background: var(--bl-teal-900);
+}

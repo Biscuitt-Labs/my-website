@@ -1,0 +1,39 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bl-teal-900);
+    box-shadow: var(--shadow-soft);
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-3) 0;
+}
+
+.logo {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--bl-cream);
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.link {
+    color: var(--bl-cream);
+    text-decoration: none;
+    font-weight: 700;
+    padding: .5rem .75rem;
+    border-radius: var(--radius-lg);
+}
+
+.active {
+    background: color-mix(in oklab, var(--bl-cream) 20%, transparent);
+}

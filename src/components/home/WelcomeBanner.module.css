@@ -1,0 +1,19 @@
+.banner {
+    text-align: center;
+    background: var(--bl-cream);
+    color: var(--bl-ink);
+    padding: var(--space-5);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-soft);
+    margin: 0 0 var(--space-6);
+}
+
+.title {
+    font-size: clamp(2rem, 2.6vw + 1rem, 3rem);
+    margin: 0 0 var(--space-2);
+}
+
+.tagline {
+    margin: 0;
+    font-weight: 700;
+}

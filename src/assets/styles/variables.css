@@ -1,0 +1,40 @@
+:root {
+    /* brand */
+    --bl-teal-900: #085c64;
+    --bl-teal-800: #0a7e89;
+    /* page background */
+    --bl-teal-700: #0f9eab;
+    --bl-cream: #fff2e1;
+    --bl-white: #ffffff;
+    --bl-ink: #072a2e;
+
+
+    /* candy path palette */
+    --tile-orange: #f7931e;
+    --tile-yellow: #ffd84d;
+    --tile-green: #2ecc71;
+    --tile-blue: #00aee6;
+    --tile-pink: #ff6fb5;
+
+
+    /* radii, shadows, spacing */
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-xl: 26px;
+    --shadow-soft: 0 8px 20px rgba(0, 0, 0, .18);
+
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 40px;
+    --space-8: 56px;
+
+
+    /* fonts */
+    --font-display: "Baloo 2", system-ui, sans-serif;
+    --font-sans: "Nunito", system-ui, sans-serif;
+}

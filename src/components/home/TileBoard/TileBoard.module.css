@@ -1,0 +1,56 @@
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 56px);
+    grid-template-rows: repeat(7, 56px);
+    gap: 8px;
+    padding: 16px;
+    background: rgba(0, 0, 0, .12);
+    border-radius: 28px;
+    box-shadow: var(--shadow-soft);
+}
+
+
+.tile {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .15);
+}
+
+
+.cardPlaceholder {
+    grid-column: 3 / 6;
+    /* center card area */
+    grid-row: 3 / 6;
+    background: var(--bl-cream);
+    border-radius: 16px;
+    box-shadow: var(--shadow-soft);
+}
+
+
+.beaker {
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    width: 110px;
+}
+
+
+@media (max-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(7, 40px);
+        grid-template-rows: repeat(7, 40px);
+    }
+
+    .tile {
+        width: 40px;
+        height: 40px;
+    }
+}

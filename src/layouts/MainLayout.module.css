@@ -1,0 +1,10 @@
+.shell {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: var(--bl-teal-800);
+}
+
+.main {
+    padding: var(--space-6) 0;
+}
